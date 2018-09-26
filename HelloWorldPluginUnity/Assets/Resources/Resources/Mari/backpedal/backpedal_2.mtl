@@ -1,0 +1,46 @@
+# Blender MTL File: 'Mariana_the_brigandBETA.blend'
+# Material Count: 4
+
+newmtl Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624575\Desktop\Loaner laptop files 1\Loaner laptop files 1\blender obj files ver3.5\blender obj files ver3.5\Mariana the brigand\BetaMarianaBody.png
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624575\Documents\Game Repository\Game Engine\Game Engine\Resources\Mari\gunUV3.png
+
+newmtl Material.002
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624575\Desktop\Loaner laptop files 1\Loaner laptop files 1\blender obj files ver3.5\blender obj files ver3.5\Mariana the brigand\hatUV.png
+
+newmtl Material.003
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624575\Desktop\Loaner laptop files 1\Loaner laptop files 1\blender obj files ver3.5\blender obj files ver3.5\Mariana the brigand\hairplaceholde.png

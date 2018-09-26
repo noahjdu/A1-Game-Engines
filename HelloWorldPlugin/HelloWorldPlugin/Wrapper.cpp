@@ -12,7 +12,15 @@ char* SayHello()
 	return greeter.greet();
 }
 
-void SetGreeting(char* greeting)
+void SetPosition(Vector3 position )
 {
-	greeter.setGreeting(std::string(greeting));
+
+
+	pos = position;
+	//greeter.setGreeting(std::string(greeting));
+}
+
+Vector3 GetPos()
+{
+	return greeter.GetPos();
 }

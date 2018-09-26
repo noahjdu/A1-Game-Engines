@@ -1,0 +1,57 @@
+# Blender MTL File: 'Demolitionist2.blend'
+# Material Count: 5
+
+newmtl DemolitionistBodyMat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DemolitionistBody_UV.png
+
+newmtl DemolitionistBootsMat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.035446 0.035564 0.033539
+Ks 0.046875 0.046875 0.046875
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DemolitionistBoots_UV.png
+
+newmtl DemolitionistJacket
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DemolitionistJacket_UV.png
+
+newmtl Hat_Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DemolitionistHat_UV.png
+
+newmtl MessengerBagMat
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd DemolitionistBag_UV.png

@@ -1,0 +1,9 @@
+﻿  Greeter.cpp
+c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\greeter.cpp(8): error C2039: 'setGreeting': is not a member of 'Greeter'
+  c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\greeter.h(13): note: see declaration of 'Greeter'
+c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\greeter.cpp(10): error C2065: 'greeting': undeclared identifier
+c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\greeter.cpp(10): error C2541: 'delete': cannot delete objects that are not pointers
+c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\greeter.cpp(11): error C2065: 'greeting': undeclared identifier
+  Wrapper.cpp
+c:\users\100624575\documents\uni\game engine design\a1\a1-game-engines\helloworldplugin\helloworldplugin\wrapper.cpp(19): error C2065: 'pos': undeclared identifier
+  Generating Code...

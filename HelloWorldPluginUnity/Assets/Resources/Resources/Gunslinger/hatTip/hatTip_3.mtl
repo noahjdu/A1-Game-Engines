@@ -1,0 +1,95 @@
+# Blender MTL File: 'GunslingerV2.blend'
+# Material Count: 8
+
+newmtl Body_Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_Gunslinger.png
+map_Bump C:\\Users\\100624754\\Desktop\\Models\\Gunslinger\\36_textile_texture_big_10_01_24.jpg
+
+newmtl Boot_Material
+Ns 1000.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.066818 0.019803 0.007035
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_GunslingerBoots.png
+
+newmtl Hat_Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_GunslingerHat.png
+map_Bump -bm 0.074074 C:\\Users\\100624754\\Desktop\\Models\\Gunslinger\\leather texture hand made soft material brown wallpaper.jpg
+
+newmtl Jacket_Material
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.098966 0.046663 0.022084
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_GunslingerCoat.png
+map_Bump -bm 0.629630 C:\\Users\\100624754\\Desktop\\Models\\Gunslinger\\leather texture hand made soft material brown wallpaper.jpg
+
+newmtl Material.001
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.035446 0.035564 0.033539
+Ks 0.043307 0.043307 0.043307
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_Gunslinger.png
+map_Bump C:\\Users\\100624754\\Desktop\\Models\\Gunslinger\\36_textile_texture_big_10_01_24.jpg
+
+newmtl Matte_Black
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_Gunslinger.png
+
+newmtl Revolver
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.132075 0.132075 0.132075
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_GunslingerRevolvers.png
+
+newmtl Shemagh
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.453108 0.273697
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd C:\Users\100624754\Desktop\Models\Gunslinger\UV_GunslingerShemagh.png
+map_Bump -bm 0.339622 C:\\Users\\100624754\\Desktop\\Models\\Gunslinger\\36_textile_texture_big_10_01_24.jpg

@@ -2,13 +2,33 @@
 
 char* Greeter::greet()
 {
-	return (char*) greeting->c_str();
+	return (char*)greeting->c_str();
 }
 
-void Greeter::setGreeting(std::string g)
+void Greeter::SetPosition(Vector3 position)
 {
-	delete greeting;
-	greeting = new std::string(g);
+
+	pos = position;
+
+	/*delete greeting;
+	greeting = new std::string(g);*/
+}
+//float Greeter::GetPositionX()
+//{
+//	return pos.x;
+//}
+//float Greeter::GetPositionY()
+//{
+//	return pos.y;
+//}
+//float Greeter::GetPositionZ()
+//{
+//	return pos.z;
+//}
+
+Vector3 Greeter::GetPos()
+{
+	return pos;
 }
 
 int Greeter::add(int first, int second)
