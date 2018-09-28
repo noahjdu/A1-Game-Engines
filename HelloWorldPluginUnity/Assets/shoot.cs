@@ -7,7 +7,7 @@ public class shoot : MonoBehaviour
     public bool canshoot = true; 
     public GameObject bullet;
 	public List<Bullet> projectiles;
-	public int maxProjectiles = 5;
+	public int maxProjectiles = 200;
 
 
 	void Start()
@@ -47,7 +47,7 @@ public class shoot : MonoBehaviour
     IEnumerator Example()
     {
 
-        yield return new WaitForSeconds(.5f);
+        yield return new WaitForSeconds(.1f);
         canshoot = true;
     }
 }

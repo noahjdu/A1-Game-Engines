@@ -20,6 +20,11 @@ public class HelloWorldPluginWrapper : MonoBehaviour
     [DllImport(DLL_NAME)]
     private static extern int Add(int first, int second);
 
+	
+
+
+
+
     // Update is called once per frame
     void Update()
     {
