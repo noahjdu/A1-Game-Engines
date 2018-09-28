@@ -2,13 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class shoot : MonoBehaviour {
+public class shoot : MonoBehaviour
+{
     public bool canshoot = true; 
-	// Use this for initialization
-	void Start () {
-		
+    public GameObject bullet;
+	public List<Bullet> projectiles;
+	public int maxProjectiles = 5;
+
+
+	void Start()
+	{
+		for (int i = 0; i < maxProjectiles; i++)
+		{
+			projectiles.Add(Instantiate(bullet).GetComponent<Bullet>());
+			projectiles[i].gameObject.SetActive(false);
+			projectiles[i].name = bullet.name + "_" + i;
+		}
 	}
-   public GameObject bullet;
+
 	// Update is called once per frame
 	void Update () {
         if (Input.GetKey("f") == true)
@@ -16,9 +27,19 @@ public class shoot : MonoBehaviour {
             if (canshoot == true)
             {
                 canshoot = false;
-                Instantiate(bullet, transform.position, transform.rotation);
-                
-                StartCoroutine(Example());
+
+				Bullet newBullet = projectiles[0];
+
+				newBullet.transform.position = transform.position;
+				newBullet.gameObject.SetActive(true);
+
+				newBullet.transform.rotation = Quaternion.LookRotation(transform.forward, transform.up);
+
+				newBullet.initialize();
+				projectiles.Add(newBullet);
+				projectiles.RemoveAt(0);
+
+				StartCoroutine("Example");
             }
         }
 	}
@@ -28,11 +49,5 @@ public class shoot : MonoBehaviour {
 
         yield return new WaitForSeconds(.5f);
         canshoot = true;
-        //jumpnoise.SetActive(false);
-
     }
-
-
-
-
 }
