@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\IAmABullet.cs" />
+    <Compile Include="Assets\Manipulator.cs" />
     <Compile Include="Assets\moving.cs" />
     <Compile Include="Assets\ObservedCube.cs" />
     <Compile Include="Assets\ObserverChange.cs" />

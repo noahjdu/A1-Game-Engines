@@ -838,6 +838,7 @@ GameObject:
   - component: {fileID: 1003566453}
   - component: {fileID: 1003566454}
   - component: {fileID: 1003566455}
+  - component: {fileID: 1003566456}
   m_Layer: 0
   m_Name: goose with a gun
   m_TagString: Untagged
@@ -877,6 +878,9 @@ MonoBehaviour:
   canJump: 0
   jumping: 0
   Jumpagain: 1
+  mirrorwalk: 1
+  walk: 0
+  walk2: 0
   player: {fileID: 1990953599}
   whoa: 180
   rb: {fileID: 1003566455}
@@ -897,6 +901,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1003566456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1003566452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c657fd29f08da2c48a5bfc565f7e810e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MS: {fileID: 1003566454}
 --- !u!1 &1040866623
 GameObject:
   m_ObjectHideFlags: 0

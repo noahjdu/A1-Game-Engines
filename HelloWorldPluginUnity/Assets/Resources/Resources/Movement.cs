@@ -16,6 +16,10 @@ public class Movement : MonoBehaviour
     public bool canJump = false;
     public bool jumping = false;
     public bool Jumpagain = true;
+    public int mirrorwalk = 1;
+    public float walk = 0;
+    public float walk2 = 0;
+
     //public GameObject jumpnoise;
     public GameObject player;
     public float whoa = 180;
@@ -35,6 +39,42 @@ public class Movement : MonoBehaviour
       //  sound.SetActive(false);
     }
 
+    public void KeybindControl_LeftandRight()
+    {//left
+        //float walk2 = 0;
+        if (Input.GetKey("a"))
+        { walk2 = mirrorwalk * Time.deltaTime; }
+
+        //right
+
+        else if (Input.GetKey("d"))
+        { walk2 = -mirrorwalk * Time.deltaTime; }
+        else
+        { walk2 = 0; }
+    }
+    
+  
+    public void KeybindControl_UpandDown()
+    { //front
+        //float walk = 0;
+        if (Input.GetKey("w"))
+        { walk = mirrorwalk * Time.deltaTime; }
+
+        //back
+
+        else if (Input.GetKey("s"))
+        { walk = -mirrorwalk * Time.deltaTime; }
+        else
+        { walk = 0; }
+    }
+   
+   public void mirrorcontrols()
+    {
+        if (mirrorwalk == 1)
+        { mirrorwalk = -1; }
+        else
+        { mirrorwalk = 1; }
+    }
     // Update is called once per frame
     private void Update()
     {
@@ -72,16 +112,23 @@ public class Movement : MonoBehaviour
 
 
 
-      //  float walk = Input.GetAxis("Horizontal") * Time.deltaTime;
-        float walk = Input.GetAxis("Vertical") * Time.deltaTime;
+        //  float walk = Input.GetAxis("Horizontal") * Time.deltaTime;
+        //float walk = Input.GetAxis("Vertical") * Time.deltaTime;
+        ////float walk2 = Input.GetAxis("Vertical") * Time.deltaTime;
+        //float walk2 = -Input.GetAxis("Horizontal") * Time.deltaTime;
+
+        //float leftRot = -Input.GetAxis("LeftRot") * Time.deltaTime *60;
+        //float RightRot = Input.GetAxis("RightRot") * Time.deltaTime *60;
+
+
+
         //float walk2 = Input.GetAxis("Vertical") * Time.deltaTime;
-        float walk2 = -Input.GetAxis("Horizontal") * Time.deltaTime;
+        //float walk2 = -Input.GetAxis("Horizontal") * Time.deltaTime;
+        KeybindControl_LeftandRight();
+        KeybindControl_UpandDown();
 
-        float leftRot = -Input.GetAxis("LeftRot") * Time.deltaTime *60;
-        float RightRot = Input.GetAxis("RightRot") * Time.deltaTime *60;
-
-
-
+        float leftRot = -Input.GetAxis("LeftRot") * Time.deltaTime * 60;
+        float RightRot = Input.GetAxis("RightRot") * Time.deltaTime * 60;
 
 
         //OnCollisionEnter2D(player);
